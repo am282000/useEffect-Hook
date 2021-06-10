@@ -8,6 +8,7 @@ const App = () => {
   useEffect(() => {
     alert("Hi")
     console.log("I am clicked");
+//     document.title=`F**k me ${num} times`;
   },[num])      // if we give [] than bs starting m ek hi baar chalega
   return (
     <>
